@@ -15,30 +15,30 @@ def write_outreach_email(
     resume_highlights: list,
     company_research: str
 ) -> str:
-    top_highlight = resume_highlights[0] if resume_highlights else ""
+    #top_highlight = resume_highlights[0] if resume_highlights else ""
 
     prompt = f"""Write a cold outreach email from {user_name} ({user_email}) 
-to a hiring manager or recruiter at {company_name}.
+        to a hiring manager or recruiter at {company_name}.
 
-They're applying for: {jd_summary.get('role_title', 'an open role')}
-Their strongest relevant achievement: {top_highlight}
+        They're applying for: {jd_summary.get('role_title', 'an open role')}
+        Their strongest relevant achievements from their resume as : {resume_highlights}
 
-Company context (pick ONE specific detail to open with):
-{company_research[:400]}
+        Company context (pick ONE specific detail to open with):
+        {company_research[:400]}
 
-Format:
-Subject: [subject line]
+        Format:
+        Subject: [subject line]
 
-[email body]
+        [email body]
 
-Instructions:
-- Subject line under 8 words
-- Body under 120 words
-- Open with a specific, genuine observation about {company_name}
-- One sentence on who they are and why relevant
-- One sentence on the specific achievement
-- Close with a single yes/no question ask (e.g. 'Would a 20-min call make sense?')
-- Sign off with name and email"""
+        Instructions:
+        - Subject line under 8 words
+        - Body under 120 words
+        - Open with a specific, genuine observation about {company_name}
+        - One sentence on who they are and why relevant
+        - One sentence on the specific achievement
+        - Close with a single yes/no question ask (e.g. 'Would a 20-min call make sense?')
+        - Sign off with name and email"""
 
     response = client.messages.create(
         model="claude-sonnet-4-5",

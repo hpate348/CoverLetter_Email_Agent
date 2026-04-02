@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 from tavily import TavilyClient
 
-client = TavilyClient(api_key=os.environ["TAVILY_API_KEY"])
+client = TavilyClient(api_key=os.environ["TAVILY_API_KEY"]) #tavily object to search
 
 def search_company(company_name: str) -> str:
     results = client.search(

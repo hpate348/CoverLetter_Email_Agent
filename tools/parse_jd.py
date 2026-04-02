@@ -11,16 +11,16 @@ def parse_jd(job_description: str) -> dict:
         messages=[{
             "role": "user",
             "content": f"""Extract from this JD:
-- role_title
-- required_skills (list)
-- nice_to_have (list)
-- role_summary (2 sentences max)
-- company_values (if mentioned)
+            - role_title
+            - required_skills (list)
+            - nice_to_have (list)
+            - role_summary (2 sentences max)
+            - company_values (if mentioned)
 
-JD:
-{job_description}
+        JD:
+        {job_description}
 
-Return JSON only."""
+        Return JSON only."""
         }]
     )
     raw = response.content[0].text.strip()
