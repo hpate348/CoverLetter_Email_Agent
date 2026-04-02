@@ -1,0 +1,21 @@
+**Honey Patel**
+[Contact Information]
+
+Hiring Manager
+DLL LLC
+Wayne, PA
+
+Dear Hiring Manager,
+
+DLL's footprint across 25+ countries presents the exact type of environment where AI automation can create massive operational leverage—and where I want to build my career. What draws me to DLL specifically is Linda Sanchez's recent appointment as Chief People Officer; her focus on HR operations across multiple US locations signals that DLL is investing in infrastructure that can benefit from intelligent workflow automation. With your offices spanning Wayne, Houston, and Johnston, the AI Agent Developer Intern role offers a chance to build tools that could streamline processes across geographies, not just within a single team.
+
+I've already built the type of systems this role requires. Using Anthropic's Claude API, I engineered an LLM-powered extraction agent that achieved 99% accuracy parsing unstructured insurance documents—eliminating manual review bottlenecks similar to what financial services companies face. More relevant to DLL's workflow automation needs: I designed a RAG-ready multi-agent architecture using ChromaDB vector stores and async Python orchestration to coordinate four specialized agents simultaneously. When accuracy mattered, I implemented a deterministic validation layer with retry logic that improved data quality by 75%. I've also built production-ready interfaces—my Streamlit frontend handles PDF and text ingestion with intelligent document type detection. This combination of LLM integration, API architecture, and practical problem-solving maps directly to the rapid prototyping and technical aptitude your role description emphasizes.
+
+I'd welcome the opportunity to discuss how my agent development experience could support DLL's operations, particularly in automating workflows across your multi-location structure. I'm available for a conversation at your convenience and can provide demos of the extraction agent and multi-agent orchestration system I've built. Thank you for considering my application.
+
+Sincerely,
+Honey Patel
+
+---
+
+**Word count: 298**

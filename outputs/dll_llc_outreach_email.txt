@@ -1,0 +1,14 @@
+Subject: AI automation for your Wayne office?
+
+Hi [First Name],
+
+I noticed DLL is actively hiring across your Wayne, PA office—seems like you're scaling operations there.
+
+I'm Honey Patel, a computer science student at UIC who builds AI agents that automate document-heavy workflows. I recently engineered an LLM-powered extraction agent using Anthropic's Claude API that hit 99% accuracy on unstructured insurance documents, eliminating most manual review.
+
+Given DLL's focus on equipment finance (lots of contracts and documentation), I'd love to explore how similar AI solutions could streamline processes for your team.
+
+Would a 20-minute call next week make sense?
+
+Honey Patel
+hpate348@uic.edu
